@@ -44,18 +44,18 @@ var pitchShifter = (function () {
 
         } else {
 
-            navigator.getUserMedia(
+            // navigator.getUserMedia(
 
-                {audio: true, video: false},
+                // {audio: true, video: false},
 
-                function (stream) {
-                    audioSources[1] = audioContext.createMediaStreamSource(stream);
-                },
+                // function (stream) {
+                //     // audioContext.createMediaStreamSource(stream);
+                // },
 
-                function (error) {
-                    alert('Unable to get the user media');
-                }
-            );
+                // function (error) {
+                //     alert('Unable to get the user media');
+                // }
+            // );
         }
 
         spectrumAudioAnalyser = audioContext.createAnalyser();

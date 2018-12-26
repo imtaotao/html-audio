@@ -1,0 +1,22 @@
+{
+  "name": "html-audio",
+  "version": "1.0.0",
+  "description": "Pitch shifter =============",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imtaotao/html-audio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imtaotao/html-audio/issues"
+  },
+  "homepage": "https://github.com/imtaotao/html-audio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
